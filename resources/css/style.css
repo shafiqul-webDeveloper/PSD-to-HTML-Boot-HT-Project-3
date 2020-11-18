@@ -1,0 +1,582 @@
+/*================================
+            Common CSS
+================================*/
+*{
+    margin:0;
+    padding:0;
+    outline: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+	border-top:20px solid #05a39a;
+	border-bottom:20px solid #05a39a;
+/*	border-right:25px solid #05a39a;*/
+/*	border-right:25px solid #4777c7;*/
+}
+ul li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+
+
+
+/*======================================
+      Navigation Section
+======================================*/
+
+.nav_style {
+	position:fixed;
+	background:#fff;
+	width:100%;
+	z-index:9999;
+	transition:all 0.3s linear;
+/*	border-right:25px solid #3561aa;*/
+}
+
+
+.sticky_nav_bg{
+	background: rgba(8, 8, 8, 0.9);
+	width:100%;
+	top:0;
+}
+
+.navbar-brand img{
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#3561aa;
+    font-size: 14 px;
+    text-transform: capitalize;
+    border: 1px solid #71c78600;
+    border-radius: 11px;
+    padding: 3px 20px;
+	transition:all 0.3s linear;
+	margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#05a39a;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color:#05a39a;
+}
+
+
+
+/*======================================
+      Banner Section
+======================================*/
+#banner{
+	max-width: 100%;
+	background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../images/banner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top;
+	position:relative;
+/*	border-right:25px solid #3561aa;*/
+}
+
+.banner_content {
+    color: #fff;
+    padding-top: 34%;
+	
+}
+
+.banner_content h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 17%;
+    /* margin-bottom: 86px; */
+    font-weight: 400;
+}
+
+.banner_content h5{
+	font-size:30px;
+	font-weight: 400;
+	line-height: 40px;
+	margin-bottom:30px;
+}
+
+.banner_btn{
+	margin-bottom:117px;
+}
+
+.btn_1 {
+    font-size: 20px;
+    padding: 2px 15px;
+    font-weight: bold;
+    background: #3561aa;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+.btn_1:hover{
+    background:#05a39a;
+	color: #fff;
+}
+
+
+
+/*================================
+        quistion Section
+================================*/
+#quistion{
+	background:#fff;
+	padding-top:120px;
+	padding-bottom:70px;
+}
+
+.quistion_col{}
+.quistion_col img{}
+.quistion_col h3{
+	font-size:25px;
+	color:#000000;
+	font-weight: 400;
+	margin-top:15px;
+}
+
+.quistion_row_bottom{
+	margin-top:30px;
+}
+
+.quistion_row_bottom a{
+	font-size: 35px;
+	font-weight: 400;
+    background: #05a39a;
+	color:#fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0px 20px;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.quistion_row_bottom a:hover{
+	background: #3561aa;
+}
+
+
+/*================================
+        PROPOS Section
+================================*/
+#propos{
+	
+}
+
+.propos_col_1{
+	background: url(../images/propos_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.propos_col_2 {
+    background: #3561aa;
+	background-size: cover;
+    color: #fff;
+    border-bottom: 25px solid #05a39a;
+	max-width: 100%;
+}
+
+.propos_col_2 h3{
+	font-size:45px;
+	text-transform:capitalize;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.propos_col_2 img{
+	width:210px;
+}
+
+.propos_col_2 p {
+    font-size: 20px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+
+
+/*================================
+       Information Section
+================================*/
+#information{
+	background:#fff;
+	padding-top:100px;
+	padding-bottom:40px;
+}
+
+.information_top_row{}
+
+.information_top_row h3{
+	font-size:45px;
+	font-weight: 500;
+	color:#000000;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+
+.information_top_row h5{
+	font-size:30px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom:40px;
+}
+
+
+.information_col{}
+
+.information_col img{}
+
+.information_col h3{
+	font-size:22px;
+	color:#000000;
+	font-weight: 400;
+	margin-top:20px;
+}
+
+.information_btn_row{
+	margin-top:30px;
+}
+
+.information_btn_row a{
+	font-size: 30px;
+	font-weight: 400;
+    background: #05a39a;
+	color:#fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0px 20px;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.information_btn_row a:hover{
+	background: #3561aa;
+}
+
+
+/*================================
+       Bar Section
+================================*/
+#bar_section{
+	background:#3561aa;
+}
+
+.bar_column_top{
+	background:#3561aa;
+	color:#fff;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.bar_column_top h3{
+	font-size:27px;
+	font-weight: 300;
+}
+
+.bar_column_bottom{
+	background:#05a39a;
+	padding-top:20px;
+	padding-bottom:20px;
+	position:relative;
+}
+
+.bar_column_bottom:after {
+    position: absolute;
+    content: " ";
+    background:#05a39a;
+    top: 0;
+    right: -21%;
+    bottom: 0;
+    left: 100%;
+}
+
+.bar_column_bottom a{
+	font-size: 24px;
+	font-weight: 400;
+	color:#000000;
+	border:2px solid #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.bar_column_bottom a:hover{
+	color: #fff;
+}
+
+/*================================
+       Acheteurs Section
+================================*/
+#acheteurs{
+	background:#fff;
+	padding-top:100px;
+	padding-bottom:40px;
+}
+
+.acheteurs_top_row{}
+
+.acheteurs_top_row h3{
+	font-size:45px;
+	font-weight: 500;
+	color:#000000;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+
+.acheteurs_top_row h5{
+	font-size:30px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom:40px;
+}
+
+
+.acheteurs_col{}
+
+.acheteurs_col img{}
+
+.acheteurs_col h3{
+	font-size:22px;
+	color:#000000;
+	font-weight: 400;
+	margin-top:20px;
+}
+
+.acheteurs_btn_row{
+	margin-top:30px;
+}
+
+.acheteurs_btn_row a{
+	font-size: 30px;
+	font-weight: 400;
+    background: #05a39a;
+	color:#fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0px 20px;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.acheteurs_btn_row a:hover{
+	background: #3561aa;
+}
+
+
+
+/*================================
+       Temoignages Section
+================================*/
+#temoignages{
+	background:#3561aa;
+	color:#fff;
+	padding-top:90px;
+	padding-bottom:60px;
+}
+.temoignages_header_row{}
+.temoignages_header_row h3{
+	font-size:45px;
+	font-weight: 400;
+	margin-bottom:30px;
+}
+
+
+.temoignages_top_row{}
+.temoignages_top_content{}
+.temoignages_top_content h2 {
+    font-size: 45px;
+    margin-bottom: -7px;
+}
+
+.temoignages_top_content h3 {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.temoignages_top_content p {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.temoignages_top_image{}
+.temoignages_top_image img{}
+
+
+.temoignages_bottom_row{
+	margin-top:25px;
+}
+.temoignages_bottom_image{}
+.temoignages_bottom_image img {
+    margin-top: 65px;
+}
+
+.temoignages_bottom_content{
+	
+}
+.temoignages_bottom_content h2{
+	font-size: 45px;
+    margin-bottom: -7px;
+	text-transform: uppercase;
+}
+.temoignages_bottom_content h3{
+	font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.temoignages_bottom_content p{
+	font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+/*====================================
+            Contact Section
+=====================================*/
+
+#contact_section{
+	background:#fff;
+	padding-top:110px;
+	padding-bottom:50px;
+	padding-left:130px;
+	padding-right:130px;
+}
+
+.contact_top_row{}
+
+.contact_top_row img{
+	width:150px;
+	margin-bottom:25px;
+}
+
+.contact_top_row p{
+	text-align: left;
+}
+
+.contact_bottom_row{}
+
+
+
+.contact_bottom_row p{
+	color:#000000;
+	font-size:30px;
+	margin-bottom:30px;
+}
+
+.contact_form {}
+
+.contact_form label{
+	font-size: 25px;
+	font-weight: 300;
+	color: #696767;
+	margin-bottom:0px;
+}
+
+.contact_form input[type="text"], 
+.contact_form input[type="email"], 
+.contact_form input[type="number"] {
+    border: 1px solid #000000;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    color: #8c8888;
+}
+
+
+
+
+.contact_btn {
+    width: 200px;
+    height: 50px;
+    background: #05a39a;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+	margin-top:15px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+
+.contact_btn:hover{
+	background:#3561aa;
+}
+
+
+/*================================
+        Footer Section
+================================*/
+#footer_section{
+	background:#3561aa;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:16px;
+	color:#010002;
+	font-weight: 700;
+}
+
+.footer_colum_1{}
+.footer_colum_1 img{
+	width:220px;
+}
+
+.footer_colum_2{
+	margin-top: 54px;
+}
+
+
+.footer_social{
+	color:#fff;
+	font-size: 20px;
+	border:2px solid #fff;
+	padding:6px 10px;
+	margin-right: 15px;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+.footer_social:hover{
+	background:#05a39a;
+	color:#fff;
+}
+.footer_text{
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	word-spacing: 2px;
+}
+.footer_text:hover{
+	color:#fff;
+	text-decoration: none;
+}
+	
+
+
+
+
+/*=======================================
+font-family: 'Roboto', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Bebas Neue', cursive;
+=======================================*/
+
