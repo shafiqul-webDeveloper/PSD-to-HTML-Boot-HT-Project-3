@@ -85,7 +85,19 @@ $("#myNavbar a").on('click', function (event) {
 });
 	
 	
+// NiceScroll for color scrollbar:	
 	
+$("body").niceScroll({
+  cursorcolor:"#3561aa",
+  background: "#4777c7",
+  cursorwidth:"12px",
+  cursorminheight: 250, 
+  zindex: 9999,
+  autohidemode: false,
+  cursorborder: "",
+  cursorborderradius: "",
+  
+});
 	
 	
 	
